@@ -1,7 +1,7 @@
 package com.nhnacademy.bookpubdelivery.exception;
 
 /**
- * Some description here.
+ * 배송상태코드관련 excepiton 입니다.
  *
  * @author : 유호철
  * @since : 1.0

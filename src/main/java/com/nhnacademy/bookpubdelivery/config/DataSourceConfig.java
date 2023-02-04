@@ -86,12 +86,18 @@ public class DataSourceConfig {
         return emf;
     }
 
+    /**
+     * Jpa Vendor 설정
+     */
     private JpaVendorAdapter jpaVendorAdapters() {
         HibernateJpaVendorAdapter hibernateJpaVendorAdapter = new HibernateJpaVendorAdapter();
         hibernateJpaVendorAdapter.setDatabase(Database.MYSQL);
         return hibernateJpaVendorAdapter;
     }
 
+    /**
+     * jpa Properties 설정
+     */
     private Properties jpaProperties() {
         Properties jpaProperties = new Properties();
         jpaProperties.setProperty("hibernate.show_sql", "true");
