@@ -16,14 +16,15 @@ import lombok.NoArgsConstructor;
 public class Dummy {
     public static Delivery deliveryDummy(){
         return Delivery.builder()
+                .state(new DeliveryState(null,"state"))
                 .orderNo(1L)
                 .recipient("수령인")
-                .requestDate(null)
+                .requestDate(LocalDateTime.now())
                 .company("회사")
                 .finishedAt(LocalDateTime.now())
                 .invoiceNo("uuid")
                 .phone("phone")
-                .state(new DeliveryState(null,"state"))
+                .addressDetail("detail")
                 .build();
     }
 }

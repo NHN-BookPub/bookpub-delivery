@@ -48,6 +48,7 @@ class DeliveryControllerTest {
         ReflectionTestUtils.setField(dto, "recipient", "re");
         ReflectionTestUtils.setField(dto, "phone", "010");
         ReflectionTestUtils.setField(dto, "requestDate", LocalDateTime.now());
+        ReflectionTestUtils.setField(dto, "addressDetail", "detail");
 
     }
 
