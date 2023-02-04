@@ -27,7 +27,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.util.ReflectionTestUtils;
 
 /**
- * Some description here.
+ * 배송관련 ServiceTest
  *
  * @author : 유호철
  * @since : 1.0
