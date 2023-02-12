@@ -18,7 +18,6 @@ import lombok.NoArgsConstructor;
 public class CreateDeliveryRequestDto {
     @NotNull
     private Long orderNo;
-    @NotBlank
     private String deliveryRequest;
     @NotBlank
     private String recipient;
